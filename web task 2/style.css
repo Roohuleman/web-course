@@ -1,0 +1,104 @@
+
+body{
+    min-height:100vh;
+    align-items:center;
+    background-color:rgb(103, 194, 194) ;
+    display: flex;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    width:90%;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.lefttop{
+    margin-top: 80px;
+    max-width:500px;
+}
+.lefttop h1{
+    color: rgb(86, 86, 187);
+}
+.button{
+    padding-top: 10px;
+    display:flex;
+    gap:15px;
+}
+.contact{
+    background:white;
+   color: blue;
+    border: none;
+    background-color: rgb(112, 172, 192);
+    padding:10px 16px;
+}
+.right{
+}
+.images{
+  display: flex;
+  gap: 20px;
+}
+.image-box {  
+    width: 50%;
+}
+.image-box img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom:5%;  
+}
+.leftbottom{
+    padding-top: 80px;
+}
+.search{
+    padding-top: 10px;
+}
+.search input{
+  width: 250px;          /* size bara karne ke liye */
+  height: 30px;          /* height bara */
+  font-size: 18px;       /* text size */
+  text-align: center;    /* text center mein */
+  background-color: #f0f8ff;  /* background color */
+  color: #333;           /* text color */
+  border: 2px solid #4CAF50; /* border color */
+}
+.boxes{
+    display: flex;
+    margin-left: 30%;
+}
+#box1{
+    width: 100px;
+    height: 50px;
+    border: solid #4CAF50;
+    background-color: green;
+    text-align: center;
+}
+#box2{
+    width: 100px;
+    height: 50px;
+    border: solid #4CAF50;
+    text-align: center;
+}
+#box3{
+    width: 100px;
+    height: 50px;
+    border: solid #4CAF50;
+    text-align: center;
+}
+#box4{
+    width: 100px;
+    height: 50px;
+    border: solid #4CAF50;
+    text-align: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

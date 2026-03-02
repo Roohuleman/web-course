@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background: #0d1b2a;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    width: 120px;
+    height: auto;
+    text-decoration: none;
+    color:white;
+}
+.Menu{
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    margin-left: 300px;
+    list-style: none;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+}
+.intro{
+    margin-top:150px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.intro h4{
+    color:goldenrod;
+}
+.intro h1{
+    color:goldenrod;
+}
+.intro h3{
+    color:white;
+}
+.buttons{
+    width: fit-content;
+}
+#btn1{
+   background: goldenrod;
+   color:black;
+   padding: 5px 10px;
+   text-decoration: none;
+   border-radius: 10px;
+}
+#btn2{
+    border: 1px solid white;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    padding: 5px 15px;
+}
+.icons{
+    display:flex;
+    background-color: rgb(17, 16, 15);
+}
+.icons-menue{
+    display: flex;
+    color: white;
+    padding: 10px 20px;   
+    gap: 100px;
+    padding-left: 140px;
+    
+}
+.icons-menue li{
+    list-style: none;
+}
+/* home */
+.Firstpage{
+display: flex;
+}
+.frontpage-img{
+    margin-left:400px;
+}
+.frontpage-img img{
+width: 360px;
+height:auto
+}
+/* Contact */
+.Contact{
+    width:230px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid goldenrod;
+    margin-top: 80px;
+    margin-left: 480px;
+
+}
+.Contact h1{
+    color: white;
+}
+#Contact-text h2{
+    color: white;
+}
+.Contact-info{
+   margin-top: 80px;
+  max-width: 500px;
+  margin-left: 470px;
+}
+
+.info-row{
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.label{
+  width: 150px;
+  font-weight: bold;
+  color: white;
+}
+
+.value{
+  color: white;
+}
+/* About */
+.About-section{
+    display: flex;
+}
+.about-left-section {
+  display: flex;
+  flex-direction: column;
+  padding-top:160px;
+  padding-left: 80px;
+}
+
+.left-side {
+  position: relative;
+  padding-left: 40px;
+}
+
+/* Vertical Line */
+.timeline {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: goldenrod;
+}
+
+/* Service Box */
+.service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* Dot */
+.dot {
+  width: 12px;
+  height: 12px;
+  background:goldenrod;
+  border-radius: 50%;
+  position: absolute;
+  left: -36px;
+}
+.right-section{
+    text-align: center;
+    padding-top: 160px;
+    margin-left: 320px;
+}
+.right-section p{
+    text-align: center;
+    padding-left:40px;
+}
+/* Skills */
+.skill-container{
+    width: 800px;
+    height: 400px;
+    margin: 30px auto;
+    border:5px solid goldenrod ;
+    border-radius: 20px;
+    
+}
+#skill-heading h1{
+    margin-top: 20px;
+    color: white;
+    padding-left:350px;
+}
+ #skills{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #skills i{
+ font-size: 60px;
+ margin: 40px;
+ }
+ /* Education */
+ .edu-heading{
+    width:230px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid goldenrod;
+    margin-top: 80px;
+    margin-left: 480px;
+ }
+ .edu-heading h1{
+    color: white;
+ }
+ .edu-info{
+  margin-top: 80px;
+  max-width: 500px;
+  margin-left: 450px;
+}
+
+.edu-info-row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label{
+  width: 150px;
+  text-decoration: underline;
+  color: white;
+}
+
+.value{
+  color: white;
+}
+.footer{
+  color: white;
+  padding: 20px 20px 0;
+  border-top: 1px solid rgb(32, 32, 30);
+  margin-top: 40px;
+}
+.footer-content{
+    display: flex;
+    gap: 50px;
+}
+.social{
+    gap: 20px;
+    margin-left: 30px;
+    width: fit-content;
+}
+.footer a{
+  color: #f9a826;
+   margin:0px 10px;
+  text-decoration: none;
+}
+
+.copy{
+  margin-top: 3px;
+  margin-left:200px ;
+  font-size: 14px;
+  color: gray;
+}
