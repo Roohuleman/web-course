@@ -1,59 +1,103 @@
 
 body{
     min-height:100vh;
-    align-items:center;
-    background-color:rgb(103, 194, 194) ;
-    display: flex;
+    background-color:rgb(208, 253, 253) ;
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family: Arial, sans-serif;
 }
-.container{
-    width:90%;
-    margin: auto;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    flex-wrap:wrap;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    border-bottom: gray solid 1px;
+    background-color: rgb(208, 253, 253);
 }
-.lefttop{
-    margin-top: 80px;
-    max-width:500px;
+.logo img{
+    width:90px;
+    height: 70px;
+}
+.Menu{
+    display: flex;
+    gap: 30px;
+    margin-left:100px;
+    list-style: none;
+}
+.Menu li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px 10px;
+}
+#btn{
+    background-color: rgb(112, 172, 192);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button-1{
+    padding-left:20%;
+}
+#btn:hover {
+   background-color: rgb(112, 172, 192);
+}
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+.light-mode {
+    background-color:rgb(208, 253, 253);
+    color: black;
+}
+.container{
+      width:100%;
+}
+.left-side{
+    display: flex;
+}
+#top-text{
+    padding-top: 60px;
+   padding-left: 100px;
 }
 .lefttop h1{
     color: rgb(86, 86, 187);
 }
-.button{
+.button-2{
     padding-top: 10px;
-    display:flex;
     gap:15px;
+    padding-left:100px ;
 }
-.contact{
+#contact{
     background:white;
-   color: blue;
+    color: blue;
     border: none;
     background-color: rgb(112, 172, 192);
     padding:10px 16px;
 }
-.right{
-}
-.images{
-  display: flex;
-  gap: 20px;
+.images{    
+padding-left:30%;
+display: flex;
+gap: 30px;
 }
 .image-box {  
-    width: 50%;
+    width: 40%;
 }
 .image-box img{
   width: 100%;
   height: 400px;
   object-fit: cover;
-  border-radius: 8px;
   margin-bottom:5%;  
 }
+.right-bottom{
+    margin-top: 30px;
+}
 .leftbottom{
-    padding-top: 80px;
+    padding-top:35px;
 }
 .search{
     padding-top: 10px;
