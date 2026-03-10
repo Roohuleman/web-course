@@ -40,11 +40,21 @@ body{
     text-decoration: none;
     font-size: 16px;
 }
+#btn1{
+    background-color: rgb(112, 172, 192);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
 .button-1{
     padding-left:20%;
 }
-#btn:hover {
-   background-color: rgb(112, 172, 192);
+#btn:hover, #btn1:hover {
+   background-color: rgb(44, 186, 233);
 }
 .dark-mode {
     background-color: #333;

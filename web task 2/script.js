@@ -9,3 +9,7 @@ btn.addEventListener("click",()=>{
         document.body.classList.add("dark-mode");
     }
 })
+document.getElementById("btn1")
+btn1.addEventListener("click",()=>{
+    alert("WELCOME TO MY WEBSITE");
+})
